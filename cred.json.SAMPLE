@@ -1,5 +1,5 @@
 {
-  "DB": {
+  "login": {
       "Email": "<USER>@workwithloop.com",
       "Password": "<PASS>",
       "URL": "https://app.asana.com/-/login"

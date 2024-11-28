@@ -5,7 +5,8 @@
     "build-npm": "npm i",
     "setup:playwright-browsers": "npx playwright install",
     "test:playwright-headless": "playwright test tests/project-plan.test.js",
-    "test:playwright-headed": "playwright test --headed  tests/project-plan.test.js"
+    "test:playwright-headed": "playwright test --headed  tests/project-plan.test.js",
+    "testshane": "playwright test --headed  tests/playwright.test.js"
   },
   "keywords": [],
   "author": "Shane Reaume",
