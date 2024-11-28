@@ -128,3 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# don't save logins to repo
+# manually update in pipeline variables and in local ( cloning without .SAMPLE and adding data )
+cred.json
+!cred.json.SAMPLE
